@@ -89,8 +89,8 @@ function Home() {
         </div>
 
         <div className="footer-div">
-            <div>
-                <input type="text"/>
+            <div className="footer">
+                <input type="text" className="text-input"/>
                 <br/>
                 <p>
                     The purpose of employee management software 
