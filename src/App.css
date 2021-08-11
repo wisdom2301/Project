@@ -1,0 +1,63 @@
+*{
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: 15px;
+}
+body{
+  background-color: rgb(240, 240, 240);
+}
+.App {
+  text-align: center;
+
+}
+
+.header-container{
+  display: flex;
+  justify-content: space-around;
+  gap: 2%;
+  width: 1440px;
+  height: 122px;
+  left: 2px;
+  background-color: white;
+  align-items: center;
+}
+a{
+  text-decoration: none;
+  color: black;
+  margin: 12px;
+}
+.sgnborder{
+  border-width: 137px;
+  height: 50px;
+  border-top: 32px;
+  border-left: 1185px;
+  border: solid 2px;
+  border-radius: 50px;
+  border-color: #4288BB;
+}
+.flex-arial{
+  width: 1440px;
+  height: 740px;
+  top: 123px;
+  left: 2px;
+  background-color: #C4C4C4;
+  display: flex;
+  justify-content: center;
+}
+img{
+  width: 770px;
+  height: 740px;
+}
+.text-area{
+  display: inline;
+  justify-content: space-between;
+  align-items: center;
+
+}
+.footer-div{
+  display: flex;
+  flex-grow: inherit;
+  justify-content: space-between;
+  align-content: center;
+  border: solid 1px;
+  border-color: #4288BB;
+}
